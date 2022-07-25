@@ -1,0 +1,9 @@
+version: '3.6'
+
+services:
+  alpine-openjdk-17.0.2:
+    build: .
+    image: hackinglab/alpine-openjdk-17.0.2:3.2
+    environment:
+      - HL_USER_USERNAME=hacker
+      - HL_USER_PASSWORD=compass
